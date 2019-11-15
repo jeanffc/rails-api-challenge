@@ -17,7 +17,7 @@ class Api::V1::VerticalsController < ApplicationController
     
     # POST /api/v1/verticals
     def create
-      @vertical = Vertical.new(vertical_params.merge(user: current_user))
+      @vertical = Vertical.new(vertical_params)
       if @vertical.save
         render json: @vertical, status: :created
       else
