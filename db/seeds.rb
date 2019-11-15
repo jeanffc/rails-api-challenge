@@ -24,3 +24,11 @@ Course.create(name: 'Loose the Gutt, keep the Butt', author: 'Anowa', category_i
 Course.create(name: 'BrittneBabe Fitness Transformation', author: 'Brittnebabe', category_id: '1', state_id: '1')
 Course.create(name: 'BTX: Body Transformation Extreme', author: 'Barstarzz', category_id: '2', state_id: '1')
 Course.create(name: 'Facebook Funnel Marketing', author: 'Russell Brunson', category_id: '2', state_id: '1')
+Course.create(name: 'Build a Wild Audience', author: 'Tim Nilson', category_id: '3', state_id: '1')
+
+Course.create(name: 'Editorial Writing Secrets', author: 'J. K. Rowling', category_id: '4', state_id: '1')
+Course.create(name: 'Scientific Writing', author: 'Stephen Hawking', category_id: '4', state_id: '1')
+Course.create(name: 'Vocal Training 101', author: 'Linkin Park', category_id: '5', state_id: '1')
+Course.create(name: 'Music Production', author: 'Lady Gaga', category_id: '5', state_id: '1')
+Course.create(name: 'Learn the Piano', author: 'Lang Lang', category_id: '6', state_id: '1')
+Course.create(name: 'Become a guitar hero', author: 'Jimmy Page', category_id: '6', state_id: '1')
