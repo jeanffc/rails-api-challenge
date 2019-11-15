@@ -10,9 +10,36 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_11_14_195330) do
+ActiveRecord::Schema.define(version: 2019_11_15_130006) do
 
   create_table "api_v1_verticals", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "categories", force: :cascade do |t|
+    t.string "name"
+    t.integer "vertical_id"
+    t.integer "state_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["state_id"], name: "index_categories_on_state_id"
+    t.index ["vertical_id"], name: "index_categories_on_vertical_id"
+  end
+
+  create_table "courses", force: :cascade do |t|
+    t.string "name"
+    t.string "author"
+    t.integer "category_id"
+    t.integer "state_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["category_id"], name: "index_courses_on_category_id"
+    t.index ["state_id"], name: "index_courses_on_state_id"
+  end
+
+  create_table "states", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
