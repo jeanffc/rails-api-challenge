@@ -1,4 +1,6 @@
 class Vertical < ApplicationRecord
+    include ValidateNameUniquenessAcrossModels
+
     # model association
     has_many :categories, dependent: :destroy
 
