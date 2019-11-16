@@ -33,48 +33,51 @@ A Ruby on Rails API for coding challenge
 Route '/api/v1/<model_name>' gives access to a CRUD in model, for instance:
 
 For Verticals:
-GET /api/v1/verticals
-POST /api/v1/verticals
-GET /api/v1/verticals/:id
-PATCH /api/v1/verticals/:id
-PUT /api/v1/verticals/:id
-DELETE /api/v1/verticals/:id
 
-    JSON Object:
-        {
-            "name": "Health & Fitness"
-        }
+- GET /api/v1/verticals
+- POST /api/v1/verticals
+- GET /api/v1/verticals/:id
+- PATCH /api/v1/verticals/:id
+- PUT /api/v1/verticals/:id
+- DELETE /api/v1/verticals/:id
+
+  JSON Object:
+  {
+  "name": "Health & Fitness"
+  }
 
 For Categories:
-GET /api/v1/categories
-POST /api/v1/categories
-GET /api/v1/categories/:id
-PATCH /api/v1/categories/:id
-PUT /api/v1/categories/:id
-DELETE /api/v1/categories/:id
 
-    JSON Object:
-        {
-            "name": "Booty & Abs",
-            "vertical_id": 1,
-            "state_id": 1
-        }
+- GET /api/v1/categories
+- POST /api/v1/categories
+- GET /api/v1/categories/:id
+- PATCH /api/v1/categories/:id
+- PUT /api/v1/categories/:id
+- DELETE /api/v1/categories/:id
+
+  JSON Object:
+  {
+  "name": "Booty & Abs",
+  "vertical_id": 1,
+  "state_id": 1
+  }
 
 For Courses:
-GET /api/v1/courses
-POST /api/v1/courses
-GET /api/v1/courses/:id
-PATCH /api/v1/courses/:id
-PUT /api/v1/courses/:id
-DELETE /api/v1/courses/:id
 
-    JSON Object:
-        {
-            "name": "Loose the Gutt, keep the Butt",
-            "author": "Anowa",
-            "category_id": 1,
-            "state_id": 1,
-        }
+- GET /api/v1/courses
+- POST /api/v1/courses
+- GET /api/v1/courses/:id
+- PATCH /api/v1/courses/:id
+- PUT /api/v1/courses/:id
+- DELETE /api/v1/courses/:id
+
+  JSON Object:
+  {
+  "name": "Loose the Gutt, keep the Butt",
+  "author": "Anowa",
+  "category_id": 1,
+  "state_id": 1,
+  }
 
 ## Questions
 
