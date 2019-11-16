@@ -81,7 +81,7 @@ For Courses:
 
 ## Questions
 
-How does your solution scale?
+_How does your solution scale?_
 
 I worked with some good apis development practices:
 
@@ -90,7 +90,7 @@ I worked with some good apis development practices:
 - Rate Limiting, to prevent abuse of the API, by a middleware for blocking and throttling the API
 - And I also worked with abstraction, especially in validations, so it is possible to reuse the code in other modules and tests.
 
-What would you improve next?
+_What would you improve next?_
 
 I would like to add some ideas to improve the application:
 
