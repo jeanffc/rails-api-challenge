@@ -82,13 +82,16 @@ For Courses:
 ## Questions
 
 How does your solution scale?
+
 I worked with some good apis development practices:
-Naming Conventions
-API Versioning, to provide new API updates and improvements without breaking old API versions
-Rate Limiting, to prevent abuse of the API, by a middleware for blocking and throttling the API
-And I also worked with abstraction, especially in validations, so it is possible to reuse the code in other modules and tests.
+
+- Naming Conventions
+- API Versioning, to provide new API updates and improvements without breaking old API versions
+- Rate Limiting, to prevent abuse of the API, by a middleware for blocking and throttling the API
+- And I also worked with abstraction, especially in validations, so it is possible to reuse the code in other modules and tests.
 
 What would you improve next?
+
 I would like to add some ideas to improve the application:
 
 - Swagger Documentation
