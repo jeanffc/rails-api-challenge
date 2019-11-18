@@ -97,3 +97,4 @@ I would like to add some ideas to improve the application:
 - Swagger Documentation
 - Tests by RSpec
 - Authentication by JWT
+- Caching by Redis
